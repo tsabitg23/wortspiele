@@ -1,8 +1,8 @@
 import * as fs from 'fs';
 import * as readline from 'readline';
 
-const inputFile = 'your_input_file.txt';
-const outputFile = 'filtered_output_file.txt';
+const inputFile = './data/raw_data.txt';
+const outputFile = './data/artikelBBBBBBBBB.txt';
 
 const filterLines = (line: string): boolean => {
   return /^(das|die|der)/.test(line);
