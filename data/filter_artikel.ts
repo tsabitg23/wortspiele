@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as readline from 'readline';
 
 const inputFile = './data/raw_data.txt';
-const outputFile = './data/artikelBBBBBBBBB.txt';
+const outputFile = './data/artikel.txt';
 
 const filterLines = (line: string): boolean => {
   return /^(das|die|der)/.test(line);
