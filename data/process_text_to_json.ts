@@ -6,7 +6,7 @@ const rootDir = process.cwd();
 const inputFile = path.join(rootDir, '/data/cleaned_artikel.txt');
 const outputFile = path.join(rootDir, '/data/artikel.json');
 
-type Wort = {
+export type Wort = {
     artikel: string;
     wort: string;
     plural: string;
