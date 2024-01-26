@@ -25,4 +25,6 @@ const processFile = async () => {
   outputStream.close();
 };
 
+const umlaut = 'üäö'
+
 processFile();
